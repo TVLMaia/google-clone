@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-
+    //BEM
+    <div className="app">
+      <Router> 
         <switch>
           <Route path="/search">
             <h1>This is the search page</h1>
@@ -17,15 +17,7 @@ function App() {
           </Route>
         </switch>
 
-      </Router>
-
-
-
-
-      
-
-    
-
+      </Router> 
     </div>
   );
 }
